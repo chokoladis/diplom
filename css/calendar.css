@@ -1,0 +1,123 @@
+.d-block{
+    display: block;
+}
+.content{
+    height: auto;
+}
+.content .img{
+    background: url(img/s1200.webp) 0px -20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vh;
+    filter: grayscale(50%);
+    z-index: 1;
+    box-shadow: inset 0px 0px 30px rgb(32,32,32);
+}
+.title{
+    font-size: 4vh;
+    padding: 2vh;
+    margin: 1vh;
+    text-align: right;
+    padding-right: 10%;
+    position: relative;
+    top: -15vh;
+    position: relative;
+    color: rgb(177, 77, 77);
+    z-index: 50;
+    border-right: 1vh solid;
+    font-family: EFN Gradient Logo,century gothic,sans-serif;
+}
+.main{
+    background: white;
+    color: rgb(88, 88, 88);
+    top: 0;
+    padding: 2vh 5vh;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: inset 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main a {
+    color: rgb(141, 158, 235);
+}
+.content_header_title{
+    font-size: 3vh;
+    /* border-bottom: 0.3vh solid red; */
+    width: 40vh;
+    color: red;
+}
+.no_work_day ul{
+    margin: 2vh 0vh;
+}
+.no_work_day ul *{
+    font-size: 1.8vh;
+    color: rgb(88, 88, 88);
+}
+.no_work_day ul li{
+    display: flex;
+}
+.no_work_day ul li *{
+    margin: 1vh;
+}
+.no_work_day span {
+    font-weight: 500;
+}
+.dop_info{
+    margin: 2vh 0vh;
+}
+.title_list_holidays{
+    margin: 5vh auto;
+    text-align: center;
+    font-size: 3.5vh;
+    margin-bottom: 1vh;
+    width: 50%;
+    border-bottom: 0.3vh dashed rgba(196, 146, 89, 0.801) ;
+}
+ul.list_mouth{
+    justify-content: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 11vh);
+}
+ul.list_mouth li{
+    margin: 0vh 1vh;
+}
+.block_list_holiday{
+    margin-top: 3vh;
+}
+.item{
+    margin: 2vh 0vh;
+    background: rgb(245, 242, 226);
+}
+.title_mouth{
+    font-size: 3vh;
+    border-bottom: 0.3vh dashed rgba(196, 146, 89, 0.801);
+    padding: 2vh 1vh;
+}
+.days{
+    padding: 2vh;
+}
+.item_day{
+    display: flex;
+    font-size: 2vh;
+}
+.item_day .day{
+    width: 13vh;
+    
+    padding: 0.5vh;
+    padding-left: 3vh;
+    left: -4vh;
+    margin: 1vh 0vh;
+    position: relative;
+}
+.item_day:nth-child(2n) .day{
+    background: white;
+}
+.info{
+    padding: 0.5vh;
+    margin: 1vh 0vh;
+    position: relative;
+}

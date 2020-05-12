@@ -1,0 +1,217 @@
+.offer_title{
+    font-size: 6vh;
+    cursor: default;
+    font-weight: 100;
+    font-family: eurofurence light,century gothic,sans-serif;
+}
+.offer_word{
+    display: block;
+    position: absolute;
+    top: -70px;
+    left: -8vh;
+    margin: 0;
+    padding: 0;
+    z-index: 20;
+    width: 70vh;
+    height: 190px;
+    position: relative;
+    background: url('img/layers/НАСЛАДИСЬ.png') no-repeat center center / contain;
+    max-width: 702px;
+    max-height: 196px;
+}
+.offer_title_small{
+    padding: 0;
+    margin: 0;
+    top: -100px;
+    position: relative;
+}
+.offer_btn{
+    top: 10px;
+    position: relative;
+}
+.catalog{
+    border-radius: 26px;
+    padding: 1vh 4.5vh;
+    z-index: 1;
+    font-size: 2.5vh; 
+    background: white;
+    color: #ef0038;
+    box-shadow: 0px 0px 20px #ef0038;
+}
+.catalog:hover{
+    color: white;
+    background: red;
+}
+.krug{
+    background: url('img/layers/Слой\ 4.png') no-repeat center center / contain;
+    background-repeat: no-repeat;
+    width: 12vh;
+    height: 6vh;
+    left: 5%;
+    position: absolute;
+    top: 3%;
+    max-width: 92px;
+    max-height: 48px;
+}
+.plus1{
+    background: url('img/layers/Слой\ 5.png') no-repeat center center / contain;
+    background-repeat: no-repeat;
+    width: 9vh;
+    height: 6vh;
+    left: 6%;
+    position: absolute;
+    top: 22%;
+    max-width: 32px;
+    max-height: 33px;
+}
+.line1{
+    background: url('img/layers/Слой\ 61.png') no-repeat center center / contain;
+    background-repeat: no-repeat;
+    width: 15vh;
+    height: 7vh;
+    left: 50%;
+    position: absolute;
+    top: 1%;
+    z-index: 2;
+    max-width: 117px;
+    max-height: 68px;
+}
+.line2{
+    background: url('img/layers/Слой\ 2.png') no-repeat center center / contain;
+    background-repeat: no-repeat;
+    width: 20vh;
+    height: 11vh;
+    left: 65%;
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+    max-width: 215px;
+    max-height: 122px;
+}
+.plus2{
+    background: url('img/layers/Слой\ 3.png') no-repeat center center / contain;
+    background-repeat: no-repeat;
+    width: 7vh;
+    height: 9vh;
+    right: 2%;
+    position: absolute;
+    top: 2%;
+    max-width: 95px;
+    max-height: 95px;
+}
+.dline1{
+    background: url('img/layers/Слой\ 10.png') no-repeat center center / contain;
+    background-repeat: no-repeat;
+    width: 14vh;
+    height: 13vh;
+    right: 16%;
+    position: absolute;
+    top: 7%;
+    max-width: 141px;
+    max-height: 159px;
+    z-index: -22;
+}
+.tringles{
+    background: url('img/layers/Слой\ 9.png') no-repeat center center / contain;
+    background-repeat: no-repeat;
+    width: 14vh;
+    height: 13vh;
+    right: 5.5%;
+    position: absolute;
+    bottom: 11.5%;
+    max-width: 110px;
+    max-height: 118px;
+    z-index: -22;
+}
+.tochki{
+    background: url('img/layers/Слой\ 11.png') no-repeat center center / contain;
+    width: 40vh;
+    height: 40vh;
+    right:-5%;
+    display: block;
+    position: absolute;
+    bottom: -5%;
+    max-width: 363px;
+    max-height: 348px;
+}
+
+.slider_body{
+    top: 15%;
+    position: relative;
+    width: 85%;
+    height: 60%;
+}
+.slider_item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.curry{
+    display: block;
+}
+.slider_body img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: 1px 1px 30px black;
+    transform: translateZ(0px);
+}
+.slider_body img:hover{
+    transform: translateZ(100px) ;
+}
+.title_slider{
+    top: 6%;
+    color: white;
+    position: relative;
+    text-shadow: 0px 0px 25px #7500fc;
+    font-family: eurofurence light,century gothic,sans-serif;
+    cursor: default;
+}
+.title_img{
+    font-size: 3vh;
+}
+.title_price{
+    font-size: 2vh;
+}
+.slider{
+    background: rgba(0,0,0,0.07);  
+    padding-left: 85px;
+    position: relative; 
+}
+.btns_comand{
+    top:5%;
+    position: relative;
+}
+.btn_comand{
+    width: 5vh;
+    height: 5vh;
+    font-size:6vh;
+    color:white;
+    margin-right: 15px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.btn_comand:hover{
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .offer_word {
+        width: 40vh;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .offer_word {
+        width: 50vh;
+        left: -5vh;
+    }
+    .offer_title_small{
+        top: -120px;
+    }
+    .offer_btn{
+        top: -50px;
+    }
+    
+}
+    

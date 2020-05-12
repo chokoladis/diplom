@@ -1,0 +1,113 @@
+.content{
+  height: auto;
+}.content .container {
+  height: auto;
+  width: 70%;
+}
+.add_otz{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0px auto;
+  border-radius: 50px;
+  padding: 2vh 6vh;
+  border: 2px solid white;
+    
+}
+.add_otz form{
+  flex-direction: row;
+  justify-content: center;
+  font-family: eurofurence light,century gothic,sans-serif;
+  font-size:2vh;
+}
+.content form *{
+  margin-right: 2vh;
+  width: 30vh;
+}
+.add_otz input{
+  box-shadow: 1px 1px 10px black;
+  border-radius: 50px;
+  padding: 1vh 3vh;
+  border: 0px;
+}
+.add_otz input[type="submit"]{
+  border: 5px solid rgba(150, 214, 159, 0.9);
+  background: rgba(144, 216, 144, 0.781);
+  text-transform: uppercase;
+  color: white;
+}
+.otzs{
+  top: 5vh;
+  position: relative;
+}
+.item{
+  background: white;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px black;
+  height: max-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
+}
+.item *{
+  width: 100%;
+}
+.user{
+  background: rgb(226, 209, 209);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.2vh;
+  position: relative;
+  padding: 1vh 5vh;
+  box-sizing: border-box;
+  color: white;
+}
+select,option{
+  box-shadow: 1px 1px 10px black;
+  border-radius: 50px;
+  padding: 1vh 3vh;
+  border: 0px;
+  outline: none;
+}
+.rating_php{
+  position: relative;
+  height: 4vh;
+  padding-left: 2vh;
+  box-sizing: border-box;
+}
+
+.rating_block_item{
+  height: max-content;
+  width: 5vh;
+  position: relative;
+  margin: 1.5vh 0vh;
+  border-radius: 2px;
+  display: flex;
+  padding: 0.5vh;
+  color: rgba(221, 90, 90, 0.589);
+  background: rgba(40, 197, 40, 0.349);
+  justify-content: center;
+}
+.main{
+  position: relative;
+  top:0;
+  display: flex;
+  margin: 2vh 0vh;
+}
+.redmouse, .webpage{
+  color: rgb(182, 167, 167);
+  position: relative;
+  top: 0;
+  height: auto;
+  padding: 1vh 5vh;
+}
+.item .title {
+  top: 1vh;
+  font-weight: 900;
+  font-size: 2.5vh;
+}
+.item .info {
+  top: 1vh;
+  position: relative;
+  font-weight: 200;
+  font-size: 2vh;
+}

@@ -1,0 +1,47 @@
+.content .container{
+    display: block;
+    height: auto;
+}
+.content{
+    height: auto;
+}
+table{
+    width: 80%;
+    font-size: 2vh;
+    margin: 5vh auto;
+    cursor: default;
+    border: 1px solid white;
+}
+table tr:first-child td{
+    font-weight: 600;
+    font-size: 2.5vh;
+    border: 1px solid white;
+}
+table tr{
+    background: transparent;
+}
+table tr:hover{
+    background: red;
+
+}
+.content .container a , h2{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* width: 25vh; */
+    margin: 3vh auto;
+}
+.content .container a{
+    top: 100%;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.content .container a:hover{
+    color: rebeccapurple;
+}
+h2{
+    position: relative;
+    color: red;
+}

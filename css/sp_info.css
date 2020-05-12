@@ -1,0 +1,30 @@
+.content{
+    height: auto;
+}
+.content a{
+    color: blue;
+}
+.block_info{
+    margin: 5vh auto;
+    
+}
+h2{
+    color: red;
+    font-family: eurofurence light,century gothic,sans-serif;
+}
+p{
+    text-indent: 4vh;
+    margin: 1vh 0vh;
+    color:rgb(201, 201, 201);
+}
+.title{
+    width: 30vh;
+    text-indent: 4vh;
+    border-bottom: 0.3vh solid red;
+    margin-top: 5vh;
+}
+.info{
+    text-indent: 4vh;
+    margin: 0.5vh 0vh;
+    color:rgb(201, 201, 201);
+}
